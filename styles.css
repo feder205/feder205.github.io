@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #292150;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.foto img {
+    max-width: 200px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.texto {
+    flex: 1;
+}
+
+.experiencia, .educacion, .tiempo {
+    margin: 20px;
+    color: #0e815f
+}
+
+h2 {
+    color: #0a3857;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.botones {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    color: #470b30;
+}
